@@ -32,7 +32,7 @@ struct stepper {
         int                             stepping_rate_target; //target stepping rate
         int                             dir;
         uint32_t                        pos;
-	uint32_t			t_val;
+        int								t_val;
         uint32_t                        acc_max;
 };
 
